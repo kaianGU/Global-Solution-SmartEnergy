@@ -20,7 +20,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       {/* Botão para abrir/fechar o Sidebar */}
       <button className={styles.sidebarToggle} onClick={toggleSidebar}>
         ☰
@@ -34,8 +34,17 @@ const Sidebar = () => {
         <h2 className={styles.title}>Menu</h2>
         <ul className={styles.menu}>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/sobre">Sobre</Link></li>
-          <li><Link href="/contato">Contato</Link></li>
+          <li><Link href="/Sobre">Sobre</Link></li>
+          <li><Link href="/Cadastro">Cadastre-se</Link></li>
+          <li><Link href="/CadastroResidencia">Cadastre sua Residência</Link></li>
+          <li><Link href="/CalculadoraEnergetica_Requests ">Calculadora Energética</Link></li>
+          <li><Link href="/Equipe">Equipe</Link></li>
+          <li><Link href="/Perfil">Perfil</Link></li>
+          <li><Link href="/Projetos">Projetos</Link></li>
+          <li><Link href="/Ranking">Ranking</Link></li>
+          <li><Link href="/ServicosLinkGroup">Serviços</Link></li>
+          <li><Link href="/TermosDeUso">Termos de Uso</Link></li>
+          <li><Link href="/TransicaoEnergetica">Transição Energética</Link></li>
         </ul>
       </div>
     </div>

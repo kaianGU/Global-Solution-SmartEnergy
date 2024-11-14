@@ -1,14 +1,14 @@
 import Sidebar from "../Sidebar/page";
 
-const Sobre = () => {
+const Perfil = () => {
 
     return (
 
         <>
         <Sidebar></Sidebar>
-            <h1>Sobre</h1>
+            <h1>Perfil</h1>
         </>
     )
 }
 
-export default  Sobre;
+export default  Perfil;

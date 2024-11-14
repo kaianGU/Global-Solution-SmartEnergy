@@ -1,14 +1,14 @@
 import Sidebar from "../Sidebar/page";
 
-const Sobre = () => {
+const Ranking = () => {
 
     return (
 
         <>
         <Sidebar></Sidebar>
-            <h1>Sobre</h1>
+            <h1>rank</h1>
         </>
     )
 }
 
-export default  Sobre;
+export default  Ranking;

@@ -1,14 +1,14 @@
 import Sidebar from "../Sidebar/page";
 
-const Dasfhboard = () => {
+const Projetos = () => {
 
     return (
 
         <>
             <Sidebar></Sidebar>
-            <h1>editando usuario</h1>
+            <h1>projetos</h1>
         </>
     )
 }
 
-export default Dasfhboard;
+export default  Projetos;
