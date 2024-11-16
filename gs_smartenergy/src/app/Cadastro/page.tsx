@@ -22,7 +22,7 @@ const validationSchema = Yup.object().shape({
         .email("Email inválido.")
         .required("Email é obrigatório."),
     telefone: Yup.string()
-        .required("Telefone é obrigatório."),
+        .required("Telefone é obrigatório."), 
 });
 
 const Cadastro = () => {
@@ -84,6 +84,11 @@ const Cadastro = () => {
             .replace(/(\d{4,5})(\d{4})$/, '$1-$2'); // Adiciona o traço
     };
 
+
+
+
+
+    
     return (
         <div className={styles.container}>
 
@@ -145,18 +150,13 @@ const Cadastro = () => {
                             e.target.value = formatTelefone(e.target.value);
                         }}
                     />
-                    
                     <input type="radio" id="radio" className={styles.radio}/> 
                     <label htmlFor="radio" className={styles.labelradio}>
-                    aceitar os termos de uso
+                    <a href="./TermosDeUso">aceitar os termos de uso</a>
                     </label>
-
-
-
-
+                    
                     <div className={styles.divisor1}></div>
                     <div className={styles.divisor2}></div>
-
                 </div>
                 <div className={styles.divisor}></div>
                 <button className={styles.botao} type="submit">Cadastrar</button>
@@ -171,3 +171,7 @@ const Cadastro = () => {
 };
 
 export default Cadastro;
+
+
+
+
