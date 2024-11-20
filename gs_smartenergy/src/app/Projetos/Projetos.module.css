@@ -1,0 +1,60 @@
+.titulo{
+    font-size: 4vw;
+    text-align: center;
+    font-family: "Kodchasan", sans-serif;
+    margin-top: 20vw;
+}
+
+.projetoImagem{
+    width: 20vw;
+    height: 20vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+
+.projetoContainer{
+    background-color: #cde5f5;
+    width: 90%;
+    border-radius: 1vw;
+    margin-left: 5%;
+
+}
+
+.nomemoresa{
+    color: rgb(0, 0, 0);
+
+    font-family: "Kodchasan", sans-serif;
+    font-size: 3vw;
+    margin-left: 25vw;
+    margin-top: -16vw;
+    position: relative;
+    top: -2vw;
+}
+
+
+.descricao{
+    color: rgb(0, 0, 0);
+    font-family: "Kodchasan", sans-serif;
+    font-size: 2vw;
+    margin-left: 25vw;
+    position: relative;
+    top: -2vw;
+}
+
+.price{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    margin-left: 25vw;
+    position: relative;
+    top: -2vw;
+    font-family: "Kodchasan", sans-serif;
+}
+
+.status{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    margin-left: 25vw;
+    position: relative;
+    top: -2vw;
+    font-family: "Kodchasan", sans-serif;
+}

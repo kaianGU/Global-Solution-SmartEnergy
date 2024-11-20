@@ -51,8 +51,9 @@
     .labelradio{
         font-size: 1.2vw;
         position: relative;
-        right: 12vw;
+        right: 20vw;
         top: -1vw;
+        width: 5vw;
         font-family: "Kodchasan", sans-serif;
     }
     .radio{
@@ -102,5 +103,26 @@
     }
     .espacadorfinal{
         height: 2vw;
+    }
+
+
+    .chekerbotao{
+        /* width: 10vw; */
+        transform: scale(0.5);
+        position: relative;
+        right: 12vw;
+    }
+
+    .linkq{
+        font-size: 1.2vw;
+        /* width: 0%; */
+        position: relative;
+        left: 25vw;
+        top: -4vw;
+        white-space: nowrap;
+    }
+
+    .nomeUsuario{
+        font-size: 5vw;
     }
 }

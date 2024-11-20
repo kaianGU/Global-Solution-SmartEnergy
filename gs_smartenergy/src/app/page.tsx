@@ -1,13 +1,26 @@
 import Image from "next/image";
 import Sidebar from "./Sidebar/page";
-
+import styles from "./homeestilo.module.css";
+// import ";/";
+import "./reset.css";
+import Link from "next/link";
 export default function Home() {
   return (
    <>
-    {/* <h1>global solution home</h1> */}
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti neque magni possimus. Eum harum repellendus, vero rem laborum quasi excepturi, expedita neque ad provident minima aliquid itaque veritatis. Optio, aut.</p>
-    <Sidebar></Sidebar>
-    {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cumque, officiis suscipit dolores, facilis iste earum unde ullam dolore, aliquam accusantium? Incidunt dolorem at tenetur sint, inventore unde id. Non.</p> */}
+    <div className={styles.container}> 
+       <img src="./Imagens/Logo.png" alt="" className={styles.logo} />
+       {/* <Sidebar></Sidebar> */}
+      
+       <Link href="./Sobre" className={styles.link}>Sobre</Link>
+       <Link href="./ServicosLinkGroup" className={styles.link}>Serviços</Link>
+       <Link href="./Equipe" className={styles.link}>Equipe</Link>
+       <Link href="./Projetos" className={styles.link}>Projetos</Link>
+
+
+       <h1 className={styles.titulo}>Energia Inteligente e Soluções Sustentáveis</h1>
+       <p className={styles.texto}>Descubra como prever seu consumo. Acesse nosso sistema de predição agora!</p>
+       <Link href="#" className={styles.botao}>Confira</Link>
+    </div>
    </>
   );
 }
